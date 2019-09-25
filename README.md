@@ -1,4 +1,4 @@
-# big-news-android-app
+# Big NEWS Android App
 Simple Android Application 📰
 
 It's Just Fun Project To Work With Java an Android 😎
