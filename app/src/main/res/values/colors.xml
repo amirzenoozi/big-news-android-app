@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#448aff</color>
+    <color name="colorPrimaryDark">#2979ff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="TitleColor_Dark">#222222</color>
+    <color name="DesTitle_Light">#999999</color>
+    <color name="White_Color">#eaeaea</color>
+    <color name="Agency_Background">#42a5f5</color>
+    <color name="White_Background">#FFFFFF</color>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/NEWS_Agencies_Margin"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/Card_Corner_Radius"
+    app:cardElevation="@dimen/Card_Elevation">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:padding="@dimen/Normal_Image_Padding"
+            android:id="@+id/NEWS_Item_Image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            tools:src="@drawable/pink" />
+
+        <TextView
+            android:id="@+id/NEWS_Item_Title"
+            android:layout_marginRight="@dimen/Normal_Font_Margin"
+            android:layout_marginLeft="@dimen/Normal_Font_Margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textSize="@dimen/Normal_Font_Size"
+            android:textColor="@color/TitleColor_Dark"
+            android:layout_below="@+id/NEWS_Item_Image"
+            tools:text="Sample Title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/NEWS_Item_Title"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/NEWS_Item_Des"
+                android:layout_marginRight="@dimen/Normal_Font_Margin"
+                android:layout_marginLeft="@dimen/Normal_Font_Margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textColor="@color/DesTitle_Light"
+                android:textSize="@dimen/Small_Font_Size"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_weight="1"
+                tools:text="Lorem Ipsum Sample Text Lorem Ipsum Sample Text Lorem Ipsum Sample Text" />
+
+            <ImageButton
+                android:id="@+id/Share_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:background="@android:color/transparent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_share_black_24dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

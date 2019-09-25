@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Big News</string>
+    <string name="Recode_Agency">Recode</string>
+    <string name="ABC_Au_Agency">ABC Au</string>
+    <string name="Espn_Agency">ESPN</string>
+    <string name="T3n_Agency">T3n</string>
+    <string name="Polygon_Agency">Polygon</string>
+    <string name="TechRadar_Agency">Tech Radar</string>
+    <string name="MTV_Agency">MTV</string>
+    <string name="CNN">CNN</string>
+    <string name="FFT">Four Four Two</string>
+    <string name="CNBN">CNBN</string>
+    <string name="The_Verge">The Verge</string>
+    <string name="Bloomberg">Bloomberg</string>
+    <string name="Wired">Wired</string>
+    <string name="Business_Insider">Business Insider</string>
+    <string name="Associated_Press">Associated Press</string>
+    <string name="Guardian">Guardian</string>
+    <string name="Hiffington">Hiffington</string>
+    <string name="National_Geographic">National Geographic</string>
+    <string name="Reuters">Reuters</string>
+    <string name="The_Hindu">The Hindu</string>
+    <string name="The_LAD_Bible">The LAD Bible</string>
+    <string name="The_Telegraph">The Telegraph</string>
+
+    <!-- Activity Labels -->
+    <string name="Main_Activity_Label">Big News</string>
+    <string name="Feed_Back_Activity_Label">Send FeedBack</string>
+    <string name="News_Activity_Label">Top News</string>
+    <string name="Web_View_Activity_Browser">Web Browser</string>
+
+    <!-- Main Menu Items -->
+    <string name="Home">Home</string>
+    <string name="Rate">Rate Us</string>
+    <string name="About">About Developer</string>
+    <string name="Feed_Back">Send Feed Back</string>
+
+    <!-- Generall String -->
+    <string name="Copy_Right">Powered by NewsAPI.Org</string>
+    <string name="Top_Ten">Top 10</string>
+    <string name="All_NEWS_Agencies">All NEWS Agencies</string>
+    <string name="FeedBack_Subject">Your Subject</string>
+    <string name="FeedBack_Body">Your Massage...</string>
+    <string name="Send_FeedBack">Send FeedBack</string>
+</resources>

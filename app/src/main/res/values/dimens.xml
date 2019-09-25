@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="Normal_Font_Margin">8dp</dimen>
+
+    <dimen name="Normal_Image_Padding">5dp</dimen>
+
+    <dimen name="Large_Font_Size">20sp</dimen>
+    <dimen name="Normal_Font_Size">14sp</dimen>
+    <dimen name="Small_Font_Size">12sp</dimen>
+
+    <dimen name="Card_Corner_Radius">5dp</dimen>
+    <dimen name="Card_Elevation">3dp</dimen>
+
+    <dimen name="NEWS_Agencies_Margin">5dp</dimen>
+    <dimen name="NEWS_Agencies_Margin_Small">2.5dp</dimen>
+
+    <dimen name="Normal_Margin">3dp</dimen>
+    <dimen name="Large_Margin">6dp</dimen>
+    <dimen name="XLarge_Margin">10dp</dimen>
+    <dimen name="Splash_Icon_Margin">70dp</dimen>
+
+    <dimen name="Icon_Sizes">110dp</dimen>
+</resources>
